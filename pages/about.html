@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home</title>
+    <link rel="icon" href="/imgs/shannons-logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/master.css">
+    <link rel="stylesheet" href="/styles/about.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#nav").load("nav.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body class="container-fluid">
+
+    <header class="row" id="header">
+        <div id="nav"></div>
+        <span>
+            <h1>About Us</h1>
+        </span>
+        <div class="col-12 text-center"><button type="button" class="btn-reserve-light">Make a Reservation</button>
+        </div>
+    </header>
+
+    <main class="row">
+        <section class="col-12"><img src="/imgs/Shannons-Irish-Pub-edited-v2.png"></section>
+        <section class="col-12" id="our-story">
+            <div class="row">
+                <div class="col">
+                    <div class="box-info">
+                        <h2>Our Story</h2>
+                        <p>Established in the 1980s, Shannon's is stylized after traditional Irish pubs. With soft
+                            lighting, beautifully carved wood seating, and a traditional wrap around bar seating area,
+                            guests will truly feel like they are visiting Ireland itself.
+                            <br><br>Our staff is committed to creating the full Irish experience and are ready to serve
+                            excellent, authentic Irish meals.
+                            <br><br>Catch us on special Irish holidays or for our weekly Thursday Trivia Night for
+                            unique Irish experiences including Irish traditional dancing, traditional instrumental
+                            performances, and even singing!</p>
+                    </div>
+                </div>
+                <div class="col"><img src="/imgs/shannons-inside.jpg" alt="inside shannon's irish pub with bar"></div>
+            </div>
+        </section>
+        <section class="col-12" id="our-history">
+            <div class="row">
+                <div class="col"><img height="500px" width="500px" style="overflow: hidden" src="/imgs/shannons-bar.jpg"
+                        alt="shannon's irish pub bar seating">
+                </div>
+                <div class="col">
+                    <div class="box-info">
+                        <h2>Our History</h2>
+                        <p>The Irish have long been an established group throughout the Chicagoland area. Shannon's
+                            delivers the authentic experience of our ancestors by serving traditional meals and creating
+                            a traditional atmosphere to immerse in.
+                            <br><br> First established by an Irish family who believed in keeping Irish traditions
+                            alive, the restaurant has flourished under the support of local customers and a heavy local
+                            Irish demographic ancestry.
+                            <br><br> Join us for some authentic meals and good alcohol served in the traditional Irish
+                            way.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="col-12" id="our-loc">
+            <div class="row">
+                <h2>Our Location</h2>
+                <div class="col">
+                    <!--ADD inline google map-->
+                </div>
+                <div class="col">
+                    <div class="box-info">
+                        <p>428 N Main St<br> Glen Ellyn, IL 60137</p><br>
+                        <p><i>(630)-790-9080</i></p>
+                        <button type="button" class="btn-dark-unfilled">Get Directions</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="row">
+        <div id="footer"></div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Home</title>
+  <link rel="icon" href="/imgs/shannons-logo.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles/master.css">
+  <link rel="stylesheet" href="/styles/index.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $("#nav").load("nav.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body class="container-fluid">
+
+  <div class="row" id="announcement">
+    <p class="col">$5.95 lunch special offered Monday to Friday</p>
+    <i class="fas fa-times fa-lg"></i>
+  </div>
+
+  <header class="row" id="header">
+    <div id="nav"></div>
+    <span>
+      <h1>Shannon's Irish Pub</h1>
+    </span>
+    <div class="col-12 text-center"><button type="button" class="btn-reserve-light">Make a Reservation</button></div>
+    
+  </header>
+
+  <main class="row">
+    <section class="col-12" id="who-we-are">
+      <div class="row">
+        <div class="col"><img src="/imgs/shannons-front.jpg" alt="restaurant location of Shannon's Irish Pub"></div>
+        <div class="col">
+          <div class="box-info">
+            <h2>Who We Are</h2>
+          <p>Located in the heart of Glen Ellyn, our restaurant offers Irish cuisine in a charming atmosphere with
+            beautiful Irish pub theme. Enjoy a cozy seat or booth inside or dine out on our back patio during the lazy
+            summer months.</p><br><br>
+          <p><i>Here's Céad Míle Fáilte to friend and to rover <br>
+              That's a greeting that's Irish as Irish can be <br>
+              It means you are welcome <br>
+              A thousand times over <br>
+              Wherever you come from, Whosoever you be</i></p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section class="col-12" id="dine-with-us">
+      <div>
+        <h2>Dine With Us</h2>
+        <br><p>Reservations are highly recommended. We offer full bar seating and booth seating situated in authentic pub
+          style. Our back patio is also available to rent out for special occasions.</p><br><br>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div>
+            <i class="fas fa-utensils fa-5x"></i>
+          <h3>Food</h3>
+          </div>          
+        </div>
+        <div class="col">
+          <div>
+            <i class="fas fa-beer fa-5x"></i>
+          <h3>Drinks</h3>
+          </div>          
+        </div>
+        <div class="col">
+          <div>
+            <i class="fas fa-clipboard-list fa-5x"></i>
+          <h3>Reservations</h3>
+          </div>          
+        </div>
+        <div class="col">
+          <div>
+            <i class="fas fa-concierge-bell fa-5x"></i>
+          <h3>Catering</h3>
+          </div>          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="row">
+    <div id="footer"></div>
+  </footer>
+</body>
+
+</html>

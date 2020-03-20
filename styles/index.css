@@ -1,0 +1,19 @@
+header {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("/imgs/shannons-front.jpg");
+}
+#announcement {
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 10px;
+  }
+
+#who-we-are, #dine-with-us {
+      text-align: center;
+  }
+
+#dine-with-us {
+      padding-top: 30px;
+      padding-bottom: 20px;
+      background-color: #E5E4D7;
+  }

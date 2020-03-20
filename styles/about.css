@@ -1,0 +1,9 @@
+header {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("/imgs/shannons-inside.jpg");
+}
+
+#our-loc {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
