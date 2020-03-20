@@ -19,7 +19,7 @@
             border-color: white;
             color: white;
         }
-        .nav-item {
+        .nav-item, #dropdown-info a {
             width: 115px;
             margin: 5px;
             text-align: center;
@@ -29,6 +29,18 @@
             padding-left: 10px;
         }
 
+        #dropdown {
+            overflow: hidden;
+        }
+        #dropdown:hover, #dropdown-list {
+            display: block;
+        }
+
+        #dropdown-list {
+            display: none;
+            position: absolute;
+            z-index: 1;
+        }
     </style>
 </head>
 
@@ -36,26 +48,30 @@
     <nav class="row">
         <div class="col-1"><img src="/imgs/shannons-logo.png" id="logo"></div>
         <div class="col-11">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
+            <div class="nav justify-content-end">
+                <div class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
+                </div>
+                <div class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="menu.html">Menu</a>
-                </li>
-                <li class="nav-item">
+                </div>
+                <div class="nav-item" id="dropdown">
+                    <a class="nav-link" id="droplink" href="menu.html">Menu</a>
+                    <div id="dropdown-list">
+                        <a href="#">Food</a>
+                        <a href="#">Drinks</a>
+                    </div>
+                </div>                
+                <div class="nav-item">
                     <a class="nav-link" href="#">Reservations</a>
-                </li>
-                <li class="nav-item">
+                </div>
+                <div class="nav-item">
                     <a class="nav-link" href="#">Catering</a>
-                </li>
-                <li class="nav-item">
+                </div>
+                <div class="nav-item">
                     <a class="nav-link" href="#">Contact Us</a>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </nav>    
 </div>
