@@ -3,7 +3,22 @@ header {
 }
 
 #our-loc {
-    justify-content: center;
     text-align: center;
-    align-content: center;
+    padding: 50px;
+}
+
+#our-story {
+    background-color: #E5E4D7;
+}
+
+#our-history {
+    background-color: #005502;
+    color: white;
+}
+
+#logo-header {
+    text-align: center;
+}
+#logo-header > img{
+    width: 50%;
 }
