@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home</title>
+    <link rel="icon" href="/imgs/shannons-logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/master.css">
+    <link rel="stylesheet" href="/styles/food.css">
+    <script src="/scripts/tabs.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#nav").load("nav.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body class="container-fluid">
+
+    <header class="row" id="header">
+        <div id="nav"></div>
+        <span>
+            <h1>Our Food</h1>
+        </span>
+        <div class="col-12 text-center"><button type="button" class="btn-reserve-light">Make a Reservation</button>
+        </div>
+    </header>
+
+    <main class="row">
+        <div class="col-12" id="tabs-bar">
+            <ul class="nav">
+                <li class="tabs active"><a href="#appetizers">
+                        <h4>Appetizers</h4>
+                    </a></li>
+                <li class="tabs" onclick="openContent(event,'soup-salad')"><a href="#soup-salad">
+                        <h4>Soups & Salads</h4>
+                    </a></li>
+                <li class="tabs"><a href="#entrees">
+                        <h4>Entrees</h4>
+                    </a></li>
+                <li class="tabs"><a href="#childrens">
+                        <h4>Children's Menu</h4>
+                    </a></li>
+                <li class="tabs"><a href="#dessert">
+                        <h4>Dessert</h4>
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="col-12">
+            <div class="tab-content">
+                <div id="appetizers" class="tab-content active">
+                    <h2>Appetizers</h2>
+                    <div id="app-info">
+                        <!--LOAD in HTML formatted content-->
+                    </div>
+                </div>
+                <div id="soup-salad" class="tab-content">
+                    <h2>Soups & Salads</h2>
+                    <div id="ss-info">
+                        <!--LOAD in HTML formatted content-->
+                    </div>
+                </div>
+                <div id="entrees" class="tab-content">
+                    <h2>Entrees</h2>
+                    <div id="entree-info">
+                        <!--LOAD in HTML formatted content-->
+                    </div>
+                </div>
+                <div id="childrens" class="tab-content">
+                    <h2>Children's Menu</h2>
+                    <div id="childs-info">
+                        <!--LOAD in HTML formatted content-->
+                    </div>
+                </div>
+                <div id="dessert" class="tab-content">
+                    <h2>Dessert</h2>
+                    <div id="dessert-info">
+                        <!--LOAD in HTML formatted content-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="row">
+        <div id="footer"></div>
+    </footer>
+</body>
+
+</html>
