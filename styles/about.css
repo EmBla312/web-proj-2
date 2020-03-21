@@ -22,3 +22,11 @@ header {
 #logo-header > img{
     width: 50%;
 }
+
+#our-videos {
+    background-color: black;
+    color: white;
+    padding: 10px 80px 50px;
+    justify-content: center;
+    
+}
