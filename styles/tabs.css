@@ -1,10 +1,15 @@
+#panes {
+    padding: 0;
+}
 .tab-content {
     display: none;
+    background-color: #f7f6f3;
 }
 
 .tabs.active {
     background-color: #f7f6f3;
 }
+
 #tabs-bar {
     padding: 0;
 }
@@ -14,7 +19,6 @@ ul {
 ul li {
     background-color: #E5E4D7;
     padding: 10px;
-    width: 20%;
     float: left;
 }
 ul li:hover {

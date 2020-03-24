@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Shannon's Irish Pub | Food</title>
+    <title>Shannon's Irish Pub | Drinks</title>
     <link rel="icon" href="/imgs/shannons-logo.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles/master.css">
-    <link rel="stylesheet" href="/styles/food.css">
+    <link rel="stylesheet" href="/styles/drinks.css">
     <link rel="stylesheet" href="/styles/tabs.css">
     <script src="/scripts/tabs.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"
@@ -29,7 +29,7 @@
     <header class="row" id="header">
         <div id="nav"></div>
         <span>
-            <h1>Our Food</h1>
+            <h1>Our Drinks</h1>
         </span>
         <div class="col-12 text-center"><button type="button" class="btn-reserve-light">Make a Reservation</button>
         </div>
@@ -38,41 +38,27 @@
     <main class="row">
         <div class="col-12" id="tabs-bar">
             <ul>
-                <li class="tabs" onclick="openContent(event, 'appetizers')" id="default"><h4>Appetizers</h4></li>
-                <li class="tabs" onclick="openContent(event, 'soup-salad')"><h4>Soups & Salads</h4></li>
-                <li class="tabs" onclick="openContent(event, 'entrees')"><h4>Entrees</h4></li>
-                <li class="tabs" onclick="openContent(event, 'childrens')"><h4>Children's Menu</h4></li>
-                <li class="tabs" onclick="openContent(event, 'dessert')"><h4>Dessert</h4></li>
+                <li class="tabs" onclick="openContent(event, 'draughts')" id="default"><h4>Draughts</h4></li>
+                <li class="tabs" onclick="openContent(event, 'sdraughts')"><h4>Special Draughts</h4></li>
+                <li class="tabs" onclick="openContent(event, 'beers')"><h4>Bottled Beers</h4></li>
             </ul>
         </div>
 
         <div class="col-12" id="panes">
-            <div id="appetizers" class="tab-content">
-                <h2>Appetizers</h2>
+            <div id="draughts" class="tab-content">
+                <h2>Draughts</h2>
                 <div>
                     <!--LOAD in HTML formatted content-->
                 </div>
             </div>
-            <div id="soup-salad" class="tab-content">
-                <h2>Soups & Salads</h2>
+            <div id="sdraughts" class="tab-content">
+                <h2>Special Draughts</h2>
                 <div>
                     <!--LOAD in HTML formatted content-->
                 </div>
             </div>
-            <div id="entrees" class="tab-content">
-                <h2>Entrees</h2>
-                <div>
-                    <!--LOAD in HTML formatted content-->
-                </div>
-            </div>
-            <div id="childrens" class="tab-content">
-                <h2>Children's Menu</h2>
-                <div>
-                    <!--LOAD in HTML formatted content-->
-                </div>
-            </div>
-            <div id="dessert" class="tab-content">
-                <h2>Dessert</h2>
+            <div id="beers" class="tab-content">
+                <h2>Bottled Beers</h2>
                 <div>
                     <!--LOAD in HTML formatted content-->
                 </div>

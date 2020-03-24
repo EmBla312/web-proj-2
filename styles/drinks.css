@@ -1,0 +1,7 @@
+header {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("/imgs/drinks-header.jpeg");
+}
+
+ul li {
+    width: 33.33%;
+}
