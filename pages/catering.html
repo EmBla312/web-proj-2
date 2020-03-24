@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shannon's Irish Pub | Catering</title>
+    <link rel="icon" href="/imgs/shannons-logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/master.css">
+    <link rel="stylesheet" href="/styles/catering.css">
+    <link rel="stylesheet" href="/styles/tabs.css">
+    <script src="/scripts/tabs.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#nav").load("nav.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body class="container-fluid">
+
+    <header class="row" id="header">
+        <div id="nav"></div>
+        <span>
+            <h1>Catering</h1>
+        </span>
+        <div class="col-12 text-center"><button type="button" class="btn-reserve-light">Make a Reservation</button>
+        </div>
+    </header>
+
+    <main class="row">
+        <div class="col-12" id='catering-info'>
+            <p>Make your get together a memorable occasion! Whatever you need, we'll bring it to your party.
+                <br>
+                Choose from an assortment of menu items or create your own custom menu and it will be  prepared by our Head Chef.</p>
+            <p><br>
+                Please call us at (630) 790-9080 for pricing details.</p>
+        </div>
+        <div class="col-12" id="combos-header">
+            <h2>Popular Menu Combos</h2>
+        </div>
+
+        <div class="col-12" id="tabs-bar">
+            <ul>
+                <li class="tabs" onclick="openContent(event, 'menu1')" id="default">
+                    <h4>Menu 1</h4>
+                </li>
+                <li class="tabs" onclick="openContent(event, 'menu2')">
+                    <h4>Menu 2</h4>
+            </ul>
+        </div>
+
+        <div class="col-12" id="panes">
+            <div id="menu1" class="tab-content">
+                <h2>Menu 1</h2>
+                <div>
+                    <!--LOAD in HTML formatted content-->
+                </div>
+            </div>
+            <div id="menu2" class="tab-content">
+                <h2>Menu 2</h2>
+                <div>
+                    <!--LOAD in HTML formatted content-->
+                </div>
+            </div>
+        </div>
+        <div class="col-12" id="app-sides">
+            <h2>Add Popular Appetizers & Sides</h2>
+            <div class="row">
+                <div class="col">
+                    <ol>
+                        <li>Fries</li>
+                        <li>Chips</li>
+                        <li>Red Potato</li>
+                        <li>Champ</li>
+                    </ol>
+                </div>
+                <div class="col">
+                    <ol>
+                        <li>Veggie Mix</li>
+                        <li>Broccoli</li>
+                        <li>Asparagus</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="row">
+        <div id="footer"></div>
+    </footer>
+</body>
+
+</html>
+
+<script>
+    document.getElementById("default").click();
+</script>

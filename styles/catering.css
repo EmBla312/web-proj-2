@@ -1,0 +1,30 @@
+header {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("/imgs/catering.jpg");
+}
+
+ul li {
+    width: 50%;
+}
+
+ol {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+
+#catering-info {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#combos-header {
+    background-color: #99CC99;
+    padding-top: 20px;
+}
+
+#app-sides {
+    background-color: #222222;
+    color: white;
+}
