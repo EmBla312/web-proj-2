@@ -1,0 +1,36 @@
+header {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("/imgs/shannons-inside-2.jpg");
+}
+
+ul li {
+    width: 33.33%;
+}
+#group-res {
+    background-color: #99CC99;
+    text-align: center;
+}
+#base-price {
+    background-color: #005502;
+    color: white;
+    text-align: center;
+}
+
+#group-res, #base-price {
+    padding: 20px;
+}
+
+#add-acc {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#note {
+    color: palegoldenrod;
+}
+
+#warning {
+    text-transform: uppercase;
+    font-style: bold;
+}

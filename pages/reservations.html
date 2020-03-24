@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shannon's Irish Pub | Drinks</title>
+    <link rel="icon" href="/imgs/shannons-logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/master.css">
+    <link rel="stylesheet" href="/styles/reservations.css">
+    <link rel="stylesheet" href="/styles/tabs.css">
+    <script src="/scripts/tabs.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#nav").load("nav.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body class="container-fluid">
+
+    <header class="row" id="header">
+        <div id="nav"></div>
+        <span>
+            <h1>Our Drinks</h1>
+        </span>
+        <div class="col-12 text-center"><button type="button" class="btn-reserve-light">Make a Reservation</button>
+        </div>
+    </header>
+
+    <main class="row">
+        <div class="col-6" id='group-res'>
+            <h2>Group Reservations</h2>
+            <p>Make your get together a memorable occasion! Whatever you need, our open air patio is available for
+                private functions.
+                <br><br> Choose from an assortment of menu items prepared by our Head Chef. We cater to parties with a
+                minimum of 35 and up to 100 for a cocktail party. During the colder months of October-March, the patio
+                may be closed so please contact us for details.</p>
+        </div>
+        <div class="col-6" id="base-price">
+            <h2>Baseline Pricing</h2>
+            <p>20% gratuity added to all parties
+                <br><br>
+                A $200 deposit is required to reserve our space private, this will be applied toward your bill
+                A deposit is refundable up to 14 days prior to event
+                <br><br>
+                If you would like to offer alcohol to your guests, ask us for details.
+                <br><br>
+                Any questions can be directed to Corinne
+                630-790-9080</p>
+        </div>
+
+        <div class="col-12" id="tabs-bar">
+            <ul>
+                <li class="tabs" onclick="openContent(event, 'lunch')" id="default">
+                    <h4>Luncheon Buffet</h4>
+                </li>
+                <li class="tabs" onclick="openContent(event, 'appetizer')">
+                    <h4>Appetizer Buffet</h4>
+                </li>
+                <li class="tabs" onclick="openContent(event, 'dinner')">
+                    <h4>Dinner Buffet</h4>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-12" id="panes">
+            <div id="lunch" class="tab-content">
+                <h2>Luncheon Buffet</h2>
+                <div>
+                    <!--LOAD in HTML formatted content-->
+                </div>
+            </div>
+            <div id="appetizer" class="tab-content">
+                <h2>Appetizer Buffet</h2>
+                <div>
+                    <!--LOAD in HTML formatted content-->
+                </div>
+            </div>
+            <div id="dinner" class="tab-content">
+                <h2>Dinner Buffet</h2>
+                <div>
+                    <!--LOAD in HTML formatted content-->
+                </div>
+            </div>
+        </div>
+        <div class="col-12" id="add-acc">
+            <h2>Additional Pricing & Accomodations</h2>
+            <p>Add a cookie assortment and 1 appetizer to buffet for $2/person (zucchini, chips, bangers or wings)
+                <br>
+                Add an unlimited dessert buffet for $2.00 per person.
+                Add cup of potato cup $2.00 per person
+            </p>
+            <p><br> Kids (10 & under) pricing available, based on menu choice
+                <br><br><span id="note">
+                    *Some restrictions apply for Thursday-Saturday parties to be private, ask for details
+                    If you provide your our dessert, a cake fee will be applied.
+                </span>
+
+                <br><br><span id="warning">No outside food allowed other than cake/dessert </span>
+            </p>
+        </div>
+    </main>
+
+    <footer class="row">
+        <div id="footer"></div>
+    </footer>
+</body>
+
+</html>
+
+<script>
+    document.getElementById("default").click();
+</script>

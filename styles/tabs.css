@@ -1,6 +1,10 @@
 #panes {
     padding: 0;
 }
+
+.tabs {
+    transition: 0.4s;
+}
 .tab-content {
     display: none;
     background-color: #f7f6f3;
