@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shannon's Irish Pub | Contact</title>
+    <link rel="icon" href="/imgs/shannons-logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/master.css">
+    <link rel="stylesheet" href="/styles/contact.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#nav").load("nav.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body class="container-fluid">
+
+    <header class="row" id="header">
+        <div id="nav"></div>
+        <span>
+            <h1>Contact Us</h1>
+        </span>
+    </header>
+
+    <main class="row">
+        <section class="col-12" id="reserve">
+            <h2>Make A Reservation</h2>
+            <p>Be sure to check out our lunch specials Monday through Friday. We also hold a trivia night each week on
+                Thursdays at 7pm. We look forward to serving you!</p><br>
+            <h3>Dining Details</h3>
+            <i class="far fa-clock"></i><input type="time">
+            <i class="fas fa-user-friends"></i><input type="number">
+            <h3>Select A Date</h3>
+            <i class="fas fa-calendar-alt"></i><input type="date">
+        </section>
+        <section class="col-12" id="contact">
+            <div>
+                <h2>Get In Touch</h2>
+                <p>Have any questions or concerns about our services and food? Please let us know in the form below. We
+                    generally respond within 24-48 hours.</p>
+            </div>
+
+            <div class="row">
+                <div class="col" id="contact-info">
+                    <img id="contact-img" src="/imgs/shannons-logo.png"><br><br>
+                    <p>(630) 790-9080 <br>
+                        shannonsirishpub@glenellyn.com</p> <br><br>                    <p>Our restaurant provides many accommodations for various needs. Please reach out to us if we can
+                        assist with anything.</p>
+                </div>
+                <div class="col" id="form">
+                    <form action="">
+                        <table id="form-table">
+                            <tr>
+                                <td>First</td>
+                                <td><input type="text"></td>
+                                <td>Last</td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td colspan="3"><input type="email"></tr></td>
+                            <tr>
+                                <td colspan="4"><textarea name="" id="" rows="10"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"></td>
+                                <td><button id="submit" type="submit">Submit</button></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="row">
+        <div id="footer"></div>
+    </footer>
+</body>
+
+</html>

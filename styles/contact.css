@@ -1,0 +1,63 @@
+header {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("/imgs/shannons-front-v2.jpg");
+}
+
+#reserve {
+    text-align: center;
+    background-color: #99CC99;
+    padding: 50px;
+}
+#contact {
+    color: white;
+    background-color: #222222;
+    text-align: center;
+    padding: 50px;
+}
+#contact-info {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#form {
+    padding: 50px 100px;
+}
+
+input {
+    padding: 10px;
+    border-style: none;
+}
+
+#reserve > i {
+    padding: 15px;
+    background-color: white;
+}
+#reserve input {
+    margin-right: 10px;
+}
+#form-table td {
+    padding: 15px;
+}
+#form input, textarea, #submit {
+    width: 100%;
+}
+
+#form input, textarea {
+    padding: 10px;
+}
+#submit {
+    padding: 10px;
+    border-style: solid;
+    border-radius: 1pt;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    transition: 0.2s;
+}
+#submit:hover {
+    background-color: white;
+    color: black;
+}
+
+#contact-img {
+    width: 20%;
+}
