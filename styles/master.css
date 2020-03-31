@@ -148,3 +148,13 @@ p, i, b, u, table, tr, td {
     font-weight: 300;
     margin-bottom: .3em;
 }
+
+.mail {
+    font-family: "Segoe UI", Times New Roman, serif;
+    font-weight: 300;
+}
+
+.mail:hover {
+    text-decoration: none;
+    color: #99CC99;
+}
