@@ -17,3 +17,14 @@ header {
       padding-bottom: 20px;
       background-color: #E5E4D7;
   }
+
+.icons {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.icons:hover {
+    color: #0000004d;
+    text-decoration: none;
+}
