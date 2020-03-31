@@ -21,7 +21,9 @@
         }
         .nav-item, #dropdown-info a {
             width: 115px;
-            margin: 5px;
+            margin-top: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
             text-align: center;
         }
         #logo {
@@ -34,15 +36,21 @@
         }
         #dropdown {
             overflow: hidden;
+            transition: 0.2s;
+            transition-delay: 1s;
         }
-        #dropdown:hover, #dropdown-list {
+        #dropdown:hover #dropdown-list {
             display: block;
         }
 
         #dropdown-list {
             display: none;
+            padding: none;
+            margin:none;
+            width: inherit;
             position: absolute;
             z-index: 1;
+            background-color: black;
         }
     </style>
 </head>
@@ -59,10 +67,10 @@
                     <a class="nav-link" href="about.html">About</a>
                 </div>
                 <div class="nav-item" id="dropdown">
-                    <a class="nav-link" id="droplink" href="menu.html">Menu</a>
+                    <a class="nav-link" id="droplink" href="menu.html">Menu</a>                    
                     <div id="dropdown-list">
-                        <a href="food.html">Food</a>
-                        <a href="drinks.html">Drinks</a>
+                        <a class="nav-link" href="food.html">Food</a>
+                        <a class="nav-link" href="drinks.html">Drinks</a>
                     </div>
                 </div>                
                 <div class="nav-item">
