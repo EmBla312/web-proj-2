@@ -158,3 +158,16 @@ p, i, b, u, table, tr, td {
     text-decoration: none;
     color: #99CC99;
 }
+
+.tab-list-obj {
+    padding: 10px;
+    margin: 0 80px;
+}
+
+.tab-list-obj .list-obj-item {
+    text-align: left;
+}
+
+.tab-list-obj .list-obj-price {
+    text-align: right;
+}
