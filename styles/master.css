@@ -159,8 +159,11 @@ p, i, b, u, table, tr, td {
     color: #99CC99;
 }
 
+.tab-content .row {
+    margin: 0;
+}
+
 .tab-list-obj {
-    padding: 10px;
     margin: 0 80px;
 }
 
