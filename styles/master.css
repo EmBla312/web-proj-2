@@ -174,3 +174,7 @@ p, i, b, u, table, tr, td {
 .tab-list-obj .list-obj-price {
     text-align: right;
 }
+
+.tab-list-obj .list-obj-p {
+    padding-left: 15px;
+}
