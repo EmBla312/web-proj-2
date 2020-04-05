@@ -149,6 +149,10 @@ p, i, b, u, table, tr, td {
     margin-bottom: .3em;
 }
 
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
 .mail {
     font-family: "Segoe UI", Times New Roman, serif;
     font-weight: 300;
@@ -161,6 +165,8 @@ p, i, b, u, table, tr, td {
 
 .tab-content .row {
     margin: 0;
+    text-align: center;
+    justify-content: center;
 }
 
 .tab-list-obj {
