@@ -152,6 +152,7 @@ p, i, b, u, table, tr, td {
 li {
     text-decoration: none;
     list-style-type: none;
+    text-align: center;
 }
 .mail {
     font-family: "Segoe UI", Times New Roman, serif;
