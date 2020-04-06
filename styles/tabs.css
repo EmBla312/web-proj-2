@@ -35,3 +35,24 @@ ul li h4 {
 ul li a:hover {
     text-decoration: none;
 }
+
+.tab-content .row {
+    margin: 0;
+    justify-content: center;
+}
+
+.tab-list-obj {
+    margin: 40px 125px;
+}
+
+.tab-list-obj .list-obj-item {
+    text-align: left;
+}
+
+.tab-list-obj .list-obj-price {
+    text-align: right;
+}
+
+.tab-list-obj .list-obj-p {
+    padding-left: 15px;
+}

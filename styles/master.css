@@ -162,25 +162,3 @@ li {
     text-decoration: none;
     color: #99CC99;
 }
-
-.tab-content .row {
-    margin: 0;
-    text-align: center;
-    justify-content: center;
-}
-
-.tab-list-obj {
-    margin: 40px 80px;
-}
-
-.tab-list-obj .list-obj-item {
-    text-align: left;
-}
-
-.tab-list-obj .list-obj-price {
-    text-align: right;
-}
-
-.tab-list-obj .list-obj-p {
-    padding-left: 15px;
-}
