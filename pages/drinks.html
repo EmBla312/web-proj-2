@@ -18,7 +18,6 @@
         $(function () {
             $("#nav").load("nav.html");
             $("#footer").load("footer.html");
-            $(".tabs-layout").load("tabs-layout.html");
         });
     </script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -32,16 +31,23 @@
         <span>
             <h1>Our Drinks</h1>
         </span>
-        <div class="col-12 text-center"><a href="/pages/contact.html"><button type="button" class="btn-reserve-light">Make a
-            Reservation</button></a></div>
+        <div class="col-12 text-center"><a href="/pages/contact.html"><button type="button"
+                    class="btn-reserve-light">Make a
+                    Reservation</button></a></div>
     </header>
 
     <main class="row">
         <div class="col-12" id="tabs-bar">
             <ul>
-                <li class="tabs" onclick="openContent(event, 'draughts')" id="default"><h4>Draughts</h4></li>
-                <li class="tabs" onclick="openContent(event, 'sdraughts')"><h4>Special Draughts</h4></li>
-                <li class="tabs" onclick="openContent(event, 'beers')"><h4>Bottled Beers</h4></li>
+                <li class="tabs" onclick="openContent(event, 'draughts')" id="default">
+                    <h4>Draughts</h4>
+                </li>
+                <li class="tabs" onclick="openContent(event, 'sdraughts')">
+                    <h4>Special Draughts</h4>
+                </li>
+                <li class="tabs" onclick="openContent(event, 'beers')">
+                    <h4>Bottled Beers</h4>
+                </li>
             </ul>
         </div>
 
@@ -49,19 +55,40 @@
             <div id="draughts" class="tab-content">
                 <h2>Draughts</h2>
                 <div>
-                    <div class="tabs-layout"></div>
+                    <li>Guinness Stout</li>
+                    <li>Smithwick’s </li>
+                    <li>3 Flloyd's Gumball Head</li>
+                    <li>Lagunitas IPA</li>
+                    <li>Harp</li>
+                    <li>Guiness Blonde</li>
+                    <li>Stella Artois</li>
+                    <li>Miller Lite</li>
                 </div>
             </div>
             <div id="sdraughts" class="tab-content">
                 <h2>Special Draughts</h2>
                 <div>
-                    <div class="tabs-layout"></div>
+                    <li>Blacksmith – Guinness & Smithwicks</li>
+                    <li>Half and Half – Guinness & Harp</li>
+                    <li>Black Velvet – Guinness & Cider</li>
+                    <li>Black & Blue – Guinness & Blue Moon</li>
+                    <li>Snakebite – Harp & Cider</li>
+                    <li>Dirty Blonde- Guinness & Stella</li>
                 </div>
             </div>
             <div id="beers" class="tab-content">
                 <h2>Bottled Beers</h2>
                 <div>
-                    <div class="tabs-layout"></div>
+                    <li>Miller Lite</li>
+                    <li>MGD</li>
+                    <li>Bud/Bud Light</li>
+                    <li>Coors NA or Clausterhaler NA</li>
+                    <li>​Krombacher Weizen NA</li>
+                    <li>Corona/Corona light</li>
+                    <li>Strongbow Cider (Gluten Free)</li>
+                    <li>Two Brothers Prairie Path (Gluten Free)</li>
+                    <li>Coors Light</li>
+                    <li>Heineken</li>
                 </div>
             </div>
         </div>
