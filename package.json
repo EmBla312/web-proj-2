@@ -1,19 +1,25 @@
 {
-    "name": "ad332-project2",
-    "version": "1.0.0",
-    "description": "node app ",
-    "main": "app.js",
-    "scripts": {
-    "start": "node app.js"
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-    "repository": {
+  "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/EmBla312/web-proj-2.git"
   },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-    "url": "https://ad332-project2.herokuapp.com/"
+  "author": "Emma Blackwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmBla312/web-proj-2/issues"
   },
-    "homepage": ""
+  "homepage": "https://github.com/EmBla312/web-proj-2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "10.16.0"
   }
+}
