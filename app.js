@@ -8,7 +8,7 @@ app.use(express.urlencoded());
 app.use(express.static(__dirname));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname+'/pages/' +'index.html'))
+    res.sendFile(path.join(__dirname, 'pages', 'index.html'))
 });
 
 app.listen(PORT, () => {
